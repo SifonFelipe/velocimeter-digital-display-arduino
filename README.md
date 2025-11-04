@@ -45,8 +45,8 @@ Something like this should have appeared. Now it's time to setup the communicati
 
 ```
 return Math.floor($prop('SpeedKmh')) + "|" +
-       $prop('CarSettings_CurrentGearRedLineRPM') + "|" +
-       $prop('CarSettings_MaxRPM') + "|" +
+       Math.round($prop('CarSettings_CurrentGearRedLineRPM')) + "|" +
+       Math.round($prop('CarSettings_MaxRPM')) + "|" +
        Math.floor($prop('Rpms')) + "\n";
 ```
 *Note: this only works in **Le Mans Ultimate**, i haven't tried on other games, the variables name may change. You can find it searching in Insert raw game data variables inside edit section.*
