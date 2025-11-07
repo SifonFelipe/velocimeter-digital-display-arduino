@@ -3,6 +3,9 @@
 ## Demo
 ![watch](docs/arduinodemo.gif)
 
+better resolution [here](https://i.imgur.com/pioZuNK.mp4)
+
+
 ## The Circuit
 ![](docs/circuit.jpeg)
 *Note that these are not the best connections*
